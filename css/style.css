@@ -1,0 +1,33 @@
+/* Estilos generales */
+body, header, footer {
+    font-family: 'Raleway', sans-serif;
+}
+/* Estilos nav */
+header {
+    width: 100%;
+    background-color: #bbbbbb;
+}
+nav {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+nav .links {
+    font-size: 1em;
+    width: 50%;
+    padding: 1.5em;
+}
+nav .links ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav .mail {
+    font-size: 1.2em;
+    font-weight: bold;
+}
