@@ -358,7 +358,7 @@ nav .mail {
 .imgContacto {
     width: 60%;
 }
-.form {
+#form {
     width: 40%;
     margin: 2em;
 }
@@ -371,7 +371,7 @@ nav .mail {
     font-size: 1em;
     font-style: italic;
 }
-.datos {
+#datos {
     margin-top: 1em;
     font-size: 0.8em;
     display: flex;
@@ -387,7 +387,7 @@ nav .mail {
     border: none;
     border-radius: 5px 5px;
 }
-.enviar {
+#enviar {
     width: 12em;
     height: 3em;
     margin: 0 auto;
@@ -397,7 +397,7 @@ nav .mail {
     border: none;
     align-items: center;
 }
-.enviar:hover {
+#enviar:hover {
     background-color: white;
     color: blue;
     font-weight: bold;
