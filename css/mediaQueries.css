@@ -87,4 +87,39 @@
     .img {
         width: 100%;
     }
+    .cardProject {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .cardProjectIzq {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .cardProjectIzq .img {
+        margin-left: 0;
+        width: 80%;    
+    }
+    .cardProject .img {
+        margin-left: 0;
+        width: 80%;
+    }
+    #contacto {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin: 2em auto;
+    }
+    .imgContacto {
+        width: 100%;
+    }
+    #form {
+        width: 100%;
+    }
+    .encabezado p {
+        width: 90%;
+
+    }
+
 }

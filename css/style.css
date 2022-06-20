@@ -1,5 +1,5 @@
 /* Estilos generales */
-body, header, footer {
+main, header, footer {
     font-family: 'Raleway', sans-serif;
     width: 100%;
 }
@@ -63,6 +63,8 @@ nav .mail {
     padding: 2em;
 }
 .tituloPrincipal h1 {
+    width: 90%;
+    margin: 0 auto;
     font-size: 4em;
     font-weight: bold;
 }
@@ -235,6 +237,7 @@ nav .mail {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding-left: 2em;
 }
 #proyectos h1 {
     font-size: 2em;
@@ -251,10 +254,11 @@ nav .mail {
     align-items: center;
 }
 .cardProject .img {
-    margin-right: 1em;
+    width: 50%;
+    margin-right: 2em;
 }
 .cardProject .img img:hover {
-    width: 550px;
+    width: 110%;
     transition: 500ms;
 }
 .cardProject .descripcion {
@@ -311,16 +315,16 @@ nav .mail {
     align-items: center;
 }
 .cardProjectIzq .img {
-    margin-left: 1em;
+    width: 50%;
+    margin-left: 2em;
 }
 .cardProjectIzq .img img:hover {
-    width: 550px;
+    width: 110%;
     transition: 500ms;
 }
 .cardProjectIzq .descripcion {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
 .cardProjectIzq h2 {
     font-size: 1.5em;
