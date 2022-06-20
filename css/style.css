@@ -94,14 +94,12 @@ nav .mail {
 }
 .sobreMi {
     width: 90%;
-    height: 100%;
-    margin: 0 auto 0 auto;
+    height: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 1em;
-    margin-bottom: 1em;
-
+    padding-top: 2em;
 }
 .sobreMi h1 {
     font-size: 2em;
@@ -109,18 +107,22 @@ nav .mail {
 }
 .textoAbout {
     width: 90%;
+    height: 50vh;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: initial;
     font-size: 1em;
+    padding-top: 2em;
+}
+.textoAbout p {
+    margin: 0 1em;
 }
 .reloded {
     font-weight: bold;
     font-size: 1.3em;
     font-style: italic;
     text-align: end;
+    padding-bottom: 1em;
 }
 
 /* Estilo skills */
@@ -153,6 +155,7 @@ nav .mail {
     width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .cardSkill {
@@ -201,6 +204,7 @@ nav .mail {
     width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 #formacion h1 {
@@ -268,14 +272,16 @@ nav .mail {
 .cardProject .botones .github {
     border: none;
     background-color: blue;
-    color: white;
     width: 12em;
     height: 3em;
     margin-right: 1em;    
 }
+.cardProject .botones .github a {
+    text-decoration: none;
+    color: white;
+}
 .cardProject .botones .github:hover {
     background-color: #bbbbbb;
-    color: black;
     font-weight: bold;
 }
 .cardProject .botones .demo {
@@ -286,6 +292,10 @@ nav .mail {
     width: 12em;
     height: 3em;
     margin-right: 1em;    
+}
+.cardProject .botones .demo a {
+    text-decoration: none;
+    color: blue;
 }
 .cardProject .botones .demo:hover {
     background-color: #bbbbbb;
@@ -329,6 +339,10 @@ nav .mail {
     margin-right: 1em;
     text-decoration: none;    
 }
+.cardProjectIzq .botones .github a {
+    text-decoration: none;
+    color: white;
+}
 .cardProjectIzq .botones .github:hover {
     background-color: #bbbbbb;
     color: black;
@@ -342,6 +356,10 @@ nav .mail {
     width: 12em;
     height: 3em;
     margin-right: 1em;    
+}
+.cardProjectIzq .botones .demo a {
+    text-decoration: none;
+    color: blue;
 }
 .cardProjectIzq .botones .demo:hover {
     background-color: #bbbbbb;
@@ -357,6 +375,7 @@ nav .mail {
 }
 .imgContacto {
     width: 60%;
+    margin: auto;
 }
 #form {
     width: 40%;
