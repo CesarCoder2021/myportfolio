@@ -1,5 +1,5 @@
 /* Estilos generales */
-main, header, footer {
+body, main, header, footer {
     font-family: 'Raleway', sans-serif;
     width: 100%;
 }
@@ -436,4 +436,9 @@ footer {
     padding-top: 2em;
     background-color: black;
     color: white;
+}
+
+/* Estilo Pagina CV */
+.bodyCv {
+    height: 190vh;
 }
