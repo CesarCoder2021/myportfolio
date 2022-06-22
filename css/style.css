@@ -229,7 +229,38 @@ nav .mail {
     font-weight: bold;
     margin-top: 0.5em;
     font-size: 1em;
+} 
+.formacionDelante {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+.formacionDetras {
+    backface-visibility: hidden;
+}
+.cardFormacion:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: all 0.7s linear;
+}
+.formacionDelante {
+    backface-visibility: hidden;
+}
+  
+.formacionDetras {
+    transform: rotateY(180deg);
+    visibility: visible;
+    position: fixed;
+    padding: 1em;
+    transition: 1s;
+}
+.formacionDetras .logro {
+    color: red;
+}
+
+
 /* Estilo Proyectos */
 #proyectos {
     width: 100%;

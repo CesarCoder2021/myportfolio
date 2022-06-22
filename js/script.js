@@ -1,8 +1,8 @@
 // Validar formulario
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("datos").addEventListener('submit', validarFormulario); 
-  });
-  function validarFormulario(evento) {
+});
+function validarFormulario(evento) {
     evento.preventDefault();
     let nombre = document.getElementById('nombre').value;
     if(nombre.length > 50) {
@@ -35,4 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
       return;
     }
     this.submit();
-  }
+}
+
+
+
